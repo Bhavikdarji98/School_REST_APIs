@@ -1,0 +1,24 @@
+Task - Create model and make API
+
+- Student
+name
+mobile
+email
+city
+
+- Teacher
+name
+mobile
+email
+
+- Lecture
+name
+description
+time
+Teacher (foreign key)
+Student (ManyToManyField)
+
+make API for create, update, delete, list for above model and 
+- use nested serializer,
+- do validation for mobile, email, time fields.
+Note - one lecture has only one Teacher but can have many students.
